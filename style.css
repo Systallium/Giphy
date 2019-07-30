@@ -1,0 +1,55 @@
+/* selecting the body of our html page and setting the font size, and saying to use either of the two font settings. and setting the backgrount to white */
+body {
+  font: 18px arial, sans-serif;
+  background: #eee;
+}
+/* selecting the animals div setting its width to take 70% of its container */
+#animals {
+  width: 70%;
+}
+/* selecting the items with id animal-item and telling them to float left with 10 pixels of padding around them. */
+.animal-item {
+  float: left;
+  padding: 10px;
+}
+/* now we're giving the form some style and telling it to float right and take up 30% of it's container with 20 pixel padding around it. */
+form {
+  float: right;
+  width: 30%;
+  padding: 20px;
+}
+/* adding some style to the label of each of the buttons of the different animals, telling it to display in blocks with a 10 pixel margin at the bottum and giving the text font a weight of 700 making it  */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+/* the input box of the  */
+input[type="text"] {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+button,
+input[type="submit"] {
+  padding: 5px 20px;
+  margin: 0 10px 10px 0;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #659a98;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #bbb;
+}
+/* hovering over the buttons for the animals or the submit button will change the color of the background. */
+button:hover,
+input[type="submit"]:hover {
+  background: #334e4d;
+}
+/* activation of the button/ clicking the buttons will also change the color of its background */
+button.active {
+  background: #334e4d;
+}

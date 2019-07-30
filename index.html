@@ -1,0 +1,40 @@
+<!-- the boiler plate startes here with the document type set as html and the language in set to English -->
+<!DOCTYPE html>
+<html lang="en">
+<!-- we have the begining header tag with the meta tag setting the character set to UTF-8 which is a universal type set  -->
+<head>
+  <meta charset="UTF-8">
+  <!-- The title tag holds the title of the page/tab -->
+  <title>Animaltastic</title>
+  <!-- this link tag holds the type of stylesheet and the pathing to the external css sheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- ending header tage -->
+</head>
+<!-- begining body tag -->
+<body>
+<!-- a div with an id of animal buttons that will hold all the buttons for the animals -->
+  <div id="animal-buttons">
+<!-- ending div tag -->
+  </div>
+<!-- begining for tag with an id of animal-form -->
+  <form id="animal-form">
+    <!-- a lable inside the for animal input and text saying to add an animal -->
+    <label for="animal-input">Add an animal</label>
+    <!-- user input goes here with text and is seperated with a break to add space between them -->
+    <input type="text" id="animal-input"><br>
+    <!-- more user input with a submit button at the bottum of the form -->
+    <input id="add-animal" type="submit" value="Submit">
+    <!-- end of form with the ending form tag -->
+  </form>
+<!-- a div to hold all the animals -->
+  <div id="animals">
+<!-- end of animal div -->
+  </div>
+<!-- the cdn for jquery so we can access all it shortcuts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- allows us to the external javascript sheet -->
+  <script src="app.js"></script>
+  <!-- end body tag -->
+</body>
+<!-- end html tag -->
+</html>
